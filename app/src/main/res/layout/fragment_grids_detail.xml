@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/firstSportsman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#1A1919"
+                        card_view:cardCornerRadius="13dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="120dp"
+                                android:layout_height="89dp"
+                                android:src="@drawable/background_sport" />
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/oswald"
+                                android:gravity="center"
+                                android:letterSpacing="0.05"
+                                android:text="Айбеков Айбек \nАйбекович"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:background="@android:color/transparent"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_close" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="144dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/rectangle_white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.05"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="#ED2840"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/plus2One"
+                android:layout_width="144dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/rectangle_white"
+                android:backgroundTint="#ED2840"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.05"
+                android:padding="5dp"
+                android:text="+ 2 балла"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plusOne"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:padding="22dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardBackgroundColor="#373434"
+                card_view:cardCornerRadius="13dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textSize="54sp"
+                    android:textColor="@color/white"
+                    android:text="+"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/minusOne"
+                android:layout_width="144dp"
+                android:layout_height="75dp"
+                android:padding="22dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardBackgroundColor="#373434"
+                card_view:cardCornerRadius="13dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textSize="54sp"
+                    android:textColor="@color/white"
+                    android:text="-"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="460dp"
+            android:layout_margin="24dp"
+            android:background="#ED2840"
+            card_view:layout_constraintEnd_toStartOf="@id/secondSportsman"
+            card_view:layout_constraintStart_toEndOf="@id/firstSportsman"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/secondSportsman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#1A1919"
+                        card_view:cardCornerRadius="13dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:id="@+id/image2"
+                                android:layout_width="120dp"
+                                android:layout_height="89dp"
+                                android:src="@drawable/background_sport" />
+
+                            <TextView
+                                android:id="@+id/name2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/oswald"
+                                android:gravity="center"
+                                android:letterSpacing="0.05"
+                                android:text="Айбеков Айбек \nАйбекович"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:background="@android:color/transparent"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_close" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="144dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/rectangle_white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.05"
+                android:padding="5dp"
+                android:text="0"
+                android:textColor="#ED2840"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/plus2Two"
+                android:layout_width="144dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/rectangle_white"
+                android:backgroundTint="#ED2840"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.05"
+                android:padding="5dp"
+                android:text="+ 2 балла"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/plusTwo"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:padding="22dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardBackgroundColor="#373434"
+                card_view:cardCornerRadius="13dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textSize="54sp"
+                    android:textColor="@color/white"
+                    android:text="+"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/minusTwo"
+                android:layout_width="144dp"
+                android:layout_height="75dp"
+                android:padding="22dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                card_view:cardBackgroundColor="#373434"
+                card_view:cardCornerRadius="13dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:textSize="54sp"
+                    android:textColor="@color/white"
+                    android:text="-"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ED2840"
+        android:fontFamily="@font/oswald"
+        android:letterSpacing="0.05"
+        android:padding="10dp"
+        android:text="@string/save"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_transparent"
+        android:fontFamily="@font/oswald"
+        android:letterSpacing="0.05"
+        android:padding="10dp"
+        android:text="@string/drop"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+</LinearLayout>

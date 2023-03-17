@@ -1,0 +1,90 @@
+<resources>
+
+    <string-array name="arrayOfRegion">
+        <item>Чуйская область</item>
+        <item>Ошская область</item>
+        <item>Баткенская область</item>
+        <item>Джалал-Абадская область</item>
+        <item>Таласская область</item>
+        <item>Нарынская область</item>
+        <item>Иссык-Кульская область</item>
+
+    </string-array>
+
+    <string-array name="arrayOfSport">
+        <item>Дзюдо</item>
+        <item>Көк бөрү</item>
+        <item>Борьба</item>
+        <item>Айкидо</item>
+
+    </string-array>
+
+    <string-array name="arrayOfGender">
+        <item>Женский</item>
+        <item>Мужской</item>
+
+    </string-array>
+
+    <string-array name="arrayOfAgeCategory">
+        <item>Взрослые</item>
+        <item>Юниоры</item>
+        <item>Кадеты</item>
+        <item>Дети 2009–2010</item>
+        <item>Дети 2011–2012</item>
+        <item>Дети 2013–2014</item>
+
+    </string-array>
+
+    <string-array name="arrayOfSportType">
+        <item>Айкидо</item>
+        <item>Борьба</item>
+        <item>Дзюдо</item>
+        <item>Көк бөрү</item>
+
+    </string-array>
+
+    <string name="app_name">Sport Pro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">Новости</string>
+    <string name="код_подтверждения">На номер +996 777 77 77 77
+        отправлен код подтвержения</string>
+
+    <string name="what_is_your_namd">Как вас зовут</string>
+
+    <string name="what_is_your_name">Как Вас зовут</string>
+    <string name="personal_info">Личные данные</string>
+    <string name="surname">Фамилия</string>
+    <string name="last_name">Отчество</string>
+    <string name="name">Имя</string>
+    <string name="contact_info">Контактные данные</string>
+    <string name="region">Область</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="professional_info">Профессиональные данные</string>
+    <string name="sport_category">Категория спорта</string>
+    <string name="sport_type">Вид спорта</string>
+    <string name="experience">Опыт работы</string>
+    <string name="save">Сохранить</string>
+    <string name="All">Все</string>
+    <string name="My">Мои</string>
+    <string name="add_sportsman">+ Добавить спортсмена</string>
+    <string name="plus">+</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="gender">Пол</string>
+    <string name="category">Возрастная категория</string>
+    <string name="weight">Вес</string>
+
+    <string name="sport_types">Виды спорта</string>
+    <string name="national">Национальные\nвиды спорта</string>
+    <string name="olympic">Олимпийские\nвиды спорта</string>
+    <string name="nonOlympic">Неолимпийские\nвиды спорта</string>
+    <string name="paraOlympic">Виды спорта Пара и \nСурдо (ЛОВЗ)</string>
+    <string name="choose_category">Выберите категорию</string>
+    <string name="text_final">Финала</string>
+    <string name="points">Очки</string>
+    <string name="drop">Сбросить</string>
+    <string name="delete">Дисквалификация участника</string>
+    <string name="question">Вы уверены, что хотите \nдисквалифицировать участника?</string>
+    <string name="judge">Судить</string>
+    <string name="sportEvents">Соревнования по данному виду спорта</string>
+</resources>

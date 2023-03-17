@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="18dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="14dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#272525"
+        card_view:cardCornerRadius="16dp"
+        card_view:contentPadding="12dp"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/stage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald"
+                tools:text="1/32"
+                android:letterSpacing="0.05"
+                android:textColor="#ED2840"
+                android:textSize="36sp"
+                android:textStyle="normal" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/finalText"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/oswald"-->
+<!--                android:text="@string/text_final"-->
+<!--                android:letterSpacing="0.05"-->
+<!--                android:textColor="#707070"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="normal" />-->
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

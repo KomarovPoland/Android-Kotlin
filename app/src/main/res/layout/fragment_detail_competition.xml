@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+
+    tools:context=".ui.fragments.trainerProfile.DetailCompetitionFragment"
+    tools:ignore="RtlSymmetry">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/oswald"
+        android:text="Программа соревнований:"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Взвешивнаие и мандатная комиссия"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/oswald"
+        android:layout_marginBottom="4dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16 июля с 09:00 до 22:00"
+        android:textColor="#E5E5E5"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:layout_marginBottom="16dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Адрес"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald"
+        android:layout_marginBottom="4dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="пр.Манаса 54, Спорт Арена"
+        android:textColor="#E5E5E5"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:layout_marginBottom="16dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Контакты"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald"
+        android:layout_marginBottom="4dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+996707999006"
+        android:textColor="@color/button"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:layout_marginBottom="16dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Судьи соревнований"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald"
+        android:layout_marginBottom="4dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зарегистрировано:0"
+        android:textColor="#E5E5E5"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:layout_marginBottom="16dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Протокол"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald"
+        android:layout_marginBottom="4dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Протокол ссылка PDF"
+        android:textColor="@color/button"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:layout_marginBottom="50dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_apply_competition"
+        android:layout_width="328dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#ED2840"
+        android:fontFamily="@font/oswald"
+        android:padding="5dp"
+        android:text="подать заявку"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

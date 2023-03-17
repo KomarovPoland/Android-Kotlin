@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/newsCover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/newsCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_sport"
+            android:fontFamily="@font/oswald"
+            android:text="Баскетбол"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/newsDate"
+            android:fontFamily="@font/oswald"
+            android:maxLines="1"
+            android:paddingStart="16dp"
+            android:paddingTop="53dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry"
+            tools:text="Баер снизит стоимость Кая Хаверца" />
+
+        <TextView
+            android:id="@+id/newsDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#B8B8B8"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry"
+            tools:text="01.06.2021" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

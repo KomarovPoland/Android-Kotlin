@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginStart="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald"
+        android:textStyle="normal"
+        android:textColor="#E5E5E5"
+        android:letterSpacing="0.05"
+        android:textSize="18sp" />
+
+    <!--    This view shows a line between each item-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#464545" />
+
+</LinearLayout>

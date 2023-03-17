@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.test_sportpro.ui.fragments.news.NewsFragment"
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_NewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_NewsFragment_to_filterFragment"
+            app:destination="@id/filterFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_NewsFragment_to_judgeFragment"
+            app:destination="@id/judgeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_NewsFragment_to_mainProfileFragment"
+            app:destination="@id/mainProfileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.test_sportpro.ui.fragments.auth.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_numberFragment"
+            app:destination="@id/numberFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_profileFragment_to_comAllFragment"
+            app:destination="@id/comAllFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_mainProfileFragment"
+            app:destination="@id/mainProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.test_sportpro.ui.fragments.news.ArticleFragment"
+        tools:layout="@layout/fragment_article">
+        <argument
+            android:name="article"
+            app:argType="com.example.test_sportpro.models.ArticleItem" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/numberFragment"
+        android:name="com.example.test_sportpro.ui.fragments.auth.NumberFragment"
+        android:label="fragment_number"
+        tools:layout="@layout/fragment_number">
+        <action
+            android:id="@+id/action_numberFragment_to_codeFragment"
+            app:destination="@id/codeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="status"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/codeFragment"
+        android:name="com.example.test_sportpro.ui.fragments.auth.CodeFragment"
+        android:label="fragment_code"
+        tools:layout="@layout/fragment_code">
+        <action
+            android:id="@+id/action_codeFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_codeFragment_to_judgeFragment"
+            app:destination="@id/judgeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="code"
+            android:defaultValue="0"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="numberForTextView"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="0" />
+        <argument
+            android:name="statuss"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_codeFragment_to_mainProfileFragment"
+            app:destination="@id/mainProfileFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.example.test_sportpro.ui.fragments.auth.ConfirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" >
+        <action
+            android:id="@+id/action_confirmationFragment_to_mainProfileFragment"
+            app:destination="@id/mainProfileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="number"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.test_sportpro.ui.fragments.auth.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_registerFragment_to_mainProfileFragment"
+            app:destination="@id/mainProfileFragment" />
+        <argument
+            android:name="number"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.test_sportpro.ui.fragments.news.FilterFragment"
+        android:label="Фильтровать"
+        tools:layout="@layout/fragment_filter">
+        <action
+            android:id="@+id/action_filterFragment_to_sportTypesFragment"
+            app:destination="@id/sportTypesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sportTypesFragment"
+        android:name="com.example.test_sportpro.ui.fragments.news.SportTypesFragment"
+        tools:layout="@layout/fragment_sport_types">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_sportTypesFragment_to_newsFragment"
+            app:destination="@id/newsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third">
+        <action
+            android:id="@+id/action_thirdFragment_to_thirdInfoFragment"
+            app:destination="@id/thirdInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainProfileFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.MainProfileFragment"
+        android:label="fragment_main_fragment"
+        tools:layout="@layout/fragment_main_fragment" >
+        <action
+            android:id="@+id/action_mainProfileFragment_to_thirdInfoFragment"
+            app:destination="@id/thirdInfoFragment" />
+        <action
+            android:id="@+id/action_mainProfileFragment_to_detailCompititionFragment"
+            app:destination="@id/detailCompetitionFragment" />
+        <action
+            android:id="@+id/action_mainProfileFragment_to_createPlayerFragment"
+            app:destination="@id/createPlayerFragment" />
+        <action
+            android:id="@+id/action_mainProfileFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/comAllFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.ComAllFragment"
+        android:label="fragment_com_all"
+        tools:layout="@layout/fragment_com_all"/>
+
+    <fragment
+        android:id="@+id/comMyFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.ComMyFragment"
+        android:label="fragment_com_my"
+        tools:layout="@layout/fragment_com_my"/>
+
+    <!--        tools:layout="@layout/fragment_com_my" />-->
+    <fragment
+        android:id="@+id/thirdInfoFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.ThirdInfoFragment"
+        tools:layout="@layout/fragment_third_info"
+        android:label="Назад" >
+        <argument
+            android:name="sportsman"
+            android:defaultValue="@null"
+            app:nullable="true"
+            app:argType="com.example.test_sportpro.models.PlayerItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/judgeFragment"
+        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.JudgeFragment"
+        tools:layout="@layout/fragment_judge">
+        <action
+            android:id="@+id/action_judgeFragment_to_judgeCompetitionFragment"
+            app:destination="@id/judgeCompetitionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_judgeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/chooseCompetitionFragment"-->
+<!--        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.ChooseCompetitionFragment"-->
+<!--        tools:layout="@layout/fragment_choose_competition"-->
+<!--        android:label="Назад">-->
+<!--        <action-->
+<!--            android:id="@+id/action_chooseCompetitionFragment_to_categoriesFragment"-->
+<!--            app:destination="@id/categoriesFragment"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right" />-->
+<!--        <argument-->
+<!--            android:name="competition"-->
+<!--            app:argType="com.example.test_sportpro.models.EventsItem" />-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.CategoriesFragment"
+        tools:layout="@layout/fragment_categories"
+        android:label="Назад">
+<!--        <action-->
+<!--            android:id="@+id/action_categoriesFragmen_to_judgeCompetitionFragment"-->
+<!--            app:destination="@id/judgeCompetitionFragment"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right" />-->
+        <action
+            android:id="@+id/action_categoriesFragment_to_chosePlayersFragment"
+            app:destination="@id/chosePlayersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/judgeCompetitionFragment"
+        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.JudgeCompetitionFragment"
+        tools:layout="@layout/fragment_judge_competition"
+        android:label="Назад">
+        <action
+            android:id="@+id/action_judgeCompetitionFragment_to_competitionsGridFragment"
+            app:destination="@id/competitionsGridFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="competition"
+            app:argType="com.example.test_sportpro.models.EventsItem" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/competitionsGridFragment"
+        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.CompetitionsGridFragment"
+        tools:layout="@layout/fragment_competitions_grid"
+        android:label="Назад">
+        <action
+            android:id="@+id/action_competitionsGridFragment_to_gridsDetailGridFragment"
+            app:destination="@id/gridsDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="competition"
+            app:argType="com.example.test_sportpro.models.EventsItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gridsDetailFragment"
+        android:name="com.example.test_sportpro.ui.fragments.judgeProfile.GridsDetailFragment"
+        tools:layout="@layout/fragment_grids_detail"
+        android:label="Назад">
+        <action
+            android:id="@+id/action_gridsDetailGridFragment_to_competitionsGridFragment"
+            app:destination="@id/competitionsGridFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="matche"
+            app:argType="com.example.test_sportpro.models.Matche" />
+        <argument
+            android:name="competition"
+            app:argType="com.example.test_sportpro.models.EventsItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailCompetitionFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.DetailCompetitionFragment"
+        android:label="Назад"
+        tools:layout="@layout/fragment_detail_competition" >
+        <argument
+            android:name="event"
+            app:argType="com.example.test_sportpro.models.EventsItem" />
+        <action
+            android:id="@+id/action_detailCompititionFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPlayerFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.CreatePlayerFragment"
+        android:label="Назад"
+        tools:layout="@layout/fragment_create_player" />
+    <fragment
+        android:id="@+id/chosePlayersFragment"
+        android:name="com.example.test_sportpro.ui.fragments.trainerProfile.ChosePlayersFragment"
+        android:label="Выбор спортсменов"
+        tools:layout="@layout/fragment_chose_players" >
+        <action
+            android:id="@+id/action_chosePlayersFragment_to_playersConfirmationFragment"
+            app:destination="@id/playersConfirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playersConfirmationFragment"
+        android:name="com.example.test_sportpro.PlayersConfirmationFragment"
+        android:label="fragment_players_confirmation"
+        tools:layout="@layout/fragment_players_confirmation" />
+
+</navigation>

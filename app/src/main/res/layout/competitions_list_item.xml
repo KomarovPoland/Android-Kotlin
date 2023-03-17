@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/para_olympic"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_sport"
+            android:fontFamily="@font/oswald"
+            android:text="Дзюдо"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_sport"
+            android:backgroundTint="#219653"
+            android:fontFamily="@font/oswald"
+            android:text="Регистрация открыта"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/duration"
+            android:fontFamily="@font/oswald"
+            android:maxLines="1"
+            android:paddingStart="16dp"
+            android:paddingTop="53dp"
+            android:paddingBottom="4dp"
+            android:text="Открытое первенство по дзюдо"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald"
+                android:paddingStart="16dp"
+                android:layout_marginEnd="6dp"
+                android:text="01.06.2021"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                tools:ignore="RtlSymmetry" />
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:src="@drawable/square"/>
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald"
+                android:layout_marginStart="6dp"
+                android:text="01.06.2021"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
