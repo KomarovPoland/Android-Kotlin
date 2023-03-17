@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page_navigation"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.GDSC_IUCA.iuca_tour.ui.MainPageFragment"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPageFragment_to_testFragment"
+            app:destination="@id/Map"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_my_nav"
+            app:destination="@id/my_nav"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainPageAltFragment"
+        android:name="com.GDSC_IUCA.iuca_tour.ui.MainPageAltFragment"
+        android:label="fragment_main_page_alt"
+        tools:layout="@layout/fragment_main_page_alt" />
+
+
+    <fragment
+        android:id="@+id/Map"
+        android:name="com.GDSC_IUCA.iuca_tour.ui.Map2Fragment"
+        tools:layout="@layout/fragment_map2" >
+
+        <action
+            android:id="@+id/action_testFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <include app:graph="@navigation/my_nav" />
+
+</navigation>

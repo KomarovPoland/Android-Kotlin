@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/myText"-->
+<!--        android:title="Список остановок" />-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/myProfile"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+
+<!--        android:title="Прихожая" />-->
+<!--    <item-->
+<!--        android:id="@+id/people"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+<!--        android:title="Board of Trustees" />-->
+<!--    <item-->
+<!--        android:id="@+id/settings"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+<!--        android:title="Столовая" />-->
+<!--    <item-->
+<!--        android:id="@+id/myProfile2"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+
+<!--        android:title="Зона отдыха" />-->
+<!--    <item-->
+<!--        android:id="@+id/myProfile3"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+
+<!--        android:title="Президентский офис" />-->
+<!--    <item-->
+<!--        android:id="@+id/myProfile4"-->
+<!--        android:icon="@drawable/ic_passed_blue_burger"-->
+<!--        android:iconTint="@color/strong_primary"-->
+
+<!--        android:title="Прихожая2" />-->
+
+
+
+</menu>

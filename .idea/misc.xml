@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1814814814814815" />
+        <entry key="../../.gradle/caches/transforms-3/f9f2fd1bb5ec87d58cf788afa978fc06/transformed/jetified-ImageSlideshow-0.1.0/res/drawable/default_selected_dot.xml" value="0.1165" />
+        <entry key="../../.gradle/caches/transforms-3/f9f2fd1bb5ec87d58cf788afa978fc06/transformed/jetified-ImageSlideshow-0.1.0/res/drawable/default_unselected_dot.xml" value="0.1165" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/button_shap.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/custom_rounded_white_button.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic________12.xml" value="0.21" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_expand_and_callabse_button.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_expand_main_page.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_flag_1.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_flag_ch.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_flag_kg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_flag_rus.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_flag_us.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_image_time.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/ic_play_btn_6.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/shape_for_button.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/drawable/side_nav_bar.xml" value="0.1424342105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/font/.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/font/roboto.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_hall_description.xml" value="0.16" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_hall_description_alt.xml" value="0.12" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_main_page.xml" value="0.16" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/activity_qr.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/app_bar_main.xml" value="0.14" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/app_bar_main2.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/appbar.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/content_hall_description.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/content_main.xml" value="0.10296052631578947" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/content_main2.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_excursion.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_first.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_hall.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_hall_description.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_language.xml" value="0.2" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_main_page.xml" value="0.16" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_main_page_alt.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_main_place_description.xml" value="0.12236842105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_map.xml" value="0.18" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_nav_header.xml" value="0.12236842105263158" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_opening.xml" value="0.16" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_qr.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_qr_code.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_second.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_start_excurtion.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_test.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_third.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/fragment_time.xml" value="0.18" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/nav_header_hall_description.xml" value="0.1" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/activity_main2_drawer.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/activity_main_drawer.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/bottom_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/botton_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/drawer_list.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/hall_description.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/main_menu.xml" value="0.13223684210526315" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/menu/main_page.xml" value="0.209375" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/mipmap-anydpi-v26/ic_flag_ru_custom.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/aza/AndroidStudioProjects/IUCA_Tour/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/drawable/background_shape.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border_drawer.xml" value="0.1045" />
+        <entry key="app/src/main/res/drawable/finished_button_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check.xml" value="0.115" />
+        <entry key="app/src/main/res/drawable/ic_logout_burger.xml" value="0.212" />
+        <entry key="app/src/main/res/drawable/ic_passed_blue_burger.xml" value="0.119" />
+        <entry key="app/src/main/res/drawable/ic_passed_burger.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_passed_burger_purple.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_plase_burger.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable/ic_plase_burger_purple.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_play.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/ic_play_btn_6.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/ic_play_button.xml" value="0.196" />
+        <entry key="app/src/main/res/drawable/ic_time_burger.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable/progress_animation.xml" value="0.1245" />
+        <entry key="app/src/main/res/drawable/shape_for_button.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_qr.xml" value="0.31666666666666665" />
+        <entry key="app/src/main/res/layout/activity_recycler.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_for_drawer_nav.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.2253865559895833" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/exit_alert_dialog.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/fragment_custom_dialog.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/fragment_dialog_lang_chose.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_excursion.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_hall.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/fragment_lan_chose.xml" value="0.201312255859375" />
+        <entry key="app/src/main/res/layout/fragment_language.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_long_tern.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/fragment_main_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_main_page_alt.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_main_place_description.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/fragment_map2.xml" value="0.2167600281035419" />
+        <entry key="app/src/main/res/layout/fragment_nav_header.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_nav_header2.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_notify.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_opening.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/fragment_start_excurtion.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_third.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_time.xml" value="0.25625" />
+        <entry key="app/src/main/res/layout/item_custem.xml" value="0.18874172185430463" />
+        <entry key="app/src/main/res/layout/item_nav_place.xml" value="0.22426470588235295" />
+        <entry key="app/src/main/res/layout/layout_blog_list_item.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/layout_blog_list_item2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.25625" />
+        <entry key="app/src/main/res/layout/no_internet_connection.xml" value="0.1499613444010417" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/drawer_list.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/hall_description.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.25625" />
+        <entry key="app/src/main/res/menu/main_page.xml" value="0.25625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IUCA_Tour</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iuca_tour">IUCA TOUR</string>
+    <string name="select_language">Select language\nТилди танданыз\nВыберите язык\n选择语言\n</string>
+    <string name="начало">Выберите\nпродолжительность\nэкскурсии</string>
+    <string name="time">Выберите\nпродолжительность\nэкскурсии</string>
+    <string name="title_activity_hall_description">HallDescriptionActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="detail_des_text">Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA.  Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA. \n \n \nчсбчждсбчдсьдчяьмдчлсмтлдстмлст  Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA.  Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA
+        Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA. \n \n \n Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA. чсбчждсбчдсьдчяьмдчлсмтлдстмлст  Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA.  Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LU
+        .</string>
+    <string name="collabse_text">Совершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA.\n \nСовершите экскурсию, чтобы познакомиться с историей и реальной атмосферой кампуса LUCIA.\n \n
+    </string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="excu_start_text">Начните экскурсию,\nчтобы познакомиться\nс историей и атмосферой МУЦА!</string>
+    <string name="qr_text">Направьте камеру на QR-код\nрядом с Вами, чтобы\nопределить Ваше текущее\nместоположение</string>
+    <string name="text_about_iuca">Международный университет Центральной Азии (IUCA) - это небольшой и дружелюбный университет, созданный в соответствии с американской моделью высшего образования и отвечающий самым высоким академическим и этическим стандартам.\n\nУчебные программы создают реальную возможность получить высшее образование и сделать успешную карьеру\n\nУчебные программы создают реальную возможность получить высшее образование и сделать успешную карьеру.</string>
+
+    <string name="text_about_iuca2">GDSC IUCA — студенческий клуб разработчиков Google базирующийся в Международном университете в Центральной Азии, г. Токмок, Кыргызстан. А если быть еще точнее, то это мы -  те самые ребята, которые и создали это приложение, которое вы на данный момент используете.\n\nВ команду GDSC IUCA  входят:\nМентор команды - Шартон Андрей;\nПроектный менеджер - Попов Данил;\nUX/UI дизайнер - Эшанханова Мохирух;\nBackend разработчики - Токоев Рысбек, Шибру Давид;\nМобильный разработчик (iOS) - Бектурганов Айдин;\nМобильный разработчик (Android) - Мамбеталиев Азамат;\nГлавной нашей задачей является решение локальных проблем при помощи инструментов информационных технологий.</string>
+    <string name="iuca_addrees">Кыргызстан, г. Токмок, ул. Шамсинская 2</string>
+    <string name="iuca_name">Команда Google Developer \nStudent Clubs</string>
+
+</resources>

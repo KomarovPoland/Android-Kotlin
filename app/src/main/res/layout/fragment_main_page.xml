@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="2dp"
+    app:cardPreventCornerOverlap="false"
+    tools:context=".ui.MainPageFragment">
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="294.5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:iss_delay="0"
+        app:iss_error_image="@drawable/error"
+        app:iss_period="3000"
+        app:iss_selected_dot="@drawable/default_selected_dot"
+        app:iss_unselected_dot="@drawable/default_unselected_dot"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/primary"
+        app:layout_constraintTop_toBottomOf="@+id/image_slider"
+        app:layout_constraintBottom_toTopOf="@+id/mainTextBoxLinear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:progress="0"
+            android:progressTint="#7C9CDB"
+            android:saveEnabled="false"
+            android:thumbTint="@color/white" />
+
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seek_bar"
+            android:layout_marginStart="16dp"
+            android:text="00:00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_due"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seek_bar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:text="10:00"
+            android:textColor="@color/white" />
+
+
+        <ImageButton
+            android:id="@+id/back_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="37dp"
+            android:layout_toStartOf="@+id/playBtn"
+            android:background="@drawable/ic_15_sec_back"
+            android:enabled="false" />
+
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/ic_play_btn_6" />
+
+
+        <ImageButton
+            android:id="@+id/ahead_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/playBtn"
+            android:background="@drawable/ic_15_sec_ahead_button"
+            android:enabled="false"
+            android:text="Stop" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mainTextBoxLinear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+
+            android:layout_marginBottom="7dp">
+
+            <TextView
+                android:id="@+id/title_place"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black2"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/expand_collabse_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="45dp"
+                android:background="@drawable/ic_expand_and_callabse_button"
+                android:contentDescription="imagebuttonfor extend" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:scrollbars="vertical"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/next_station_btn"
+        android:layout_width="340dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_for_button"
+        android:backgroundTint="@color/primary"
+        android:text="СЛЕДУЮЩАЯ ОСТАНОВКА"
+        android:textColor="@color/white"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/background_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.DialogLangChoseFragment">
+
+
+    <Button
+        android:id="@+id/engBtnDialog"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_for_button"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/flag_us_little"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:text="English language"
+
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toTopOf="@+id/kgBtnDialog"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/kgBtnDialog"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/engBtnDialog"
+
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_for_button"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/flag_kg_little"
+
+        android:drawableEnd="@drawable/ic_arrow"
+        android:paddingStart="28dp"
+
+        android:paddingEnd="28dp"
+        android:text="Кыргыз тили"
+
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/rusBtnDialog"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/rusBtnDialog"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/kgBtnDialog"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_for_button"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/flag_ru_little"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:text="Русский язык"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/chBtnDialog"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/chBtnDialog"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/rusBtnDialog"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_for_button"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/flag_ch_little"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:text="中文"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
